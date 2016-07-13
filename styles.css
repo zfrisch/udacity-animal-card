@@ -1,0 +1,38 @@
+/* add your CSS here */
+body {
+	background-color: black;
+}
+img {
+	width: 300px;
+	height: auto;
+	margin-bottom: 10px;
+}
+p.italic {
+	font-style: italic;
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+li {
+	font-size: 13px; 
+	/*I lowered the font size to fit the entire Scientific Name.
+	I know that it's not technically 'correct' but it fit the situation*/
+}
+li span {
+	font-weight: bold;
+}
+#animal-inner-info {
+	padding: 15px;
+}
+#animal-outer-info {
+	width: 300px;
+	position: absolute;
+	left: calc(50% - 150px);
+	padding: 10px;
+	box-shadow: 5px 5px 3px lightGrey;
+}
+#animal-outer-info, #animal-inner-info {
+	background-color: white;
+	border: 2px solid lightGrey;
+}
